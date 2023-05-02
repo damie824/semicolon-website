@@ -253,7 +253,7 @@ p::selection, br::selection, h4::selection, a::selection, button::selection, div
 .about-2 {
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 100vh;
   color: white;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -464,6 +464,23 @@ a:-webkit-any-link {
   border-bottom: 1px solid white;
 }
 
+.branding-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.branding-main h4 {
+  font-size: 100px;
+  margin: 0px;
+}
+.branding-main a {
+  border-bottom: 1px solid white;
+}
+
 .footer {
   padding: 30px;
   color: white;
@@ -485,6 +502,24 @@ a:-webkit-any-link {
 .copyright {
   text-align: center;
   color: rgb(170, 170, 170);
+}
+
+.downloader-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downloader-main a button {
+  padding: 10px 20px;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.downloader-main a button:hover {
+  background-color: rgb(211, 211, 211);
 }
 
 @media screen and (max-width: 768px) {
