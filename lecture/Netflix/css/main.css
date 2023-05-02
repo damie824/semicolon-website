@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-color: #00081D;
+}
+
+.main {
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%),url("../assets/background.jpg")
+}
+
+#logo {
+    width: 150px;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.language {
+    margin-left: auto;
+    border: 1px solid rgb(43, 43, 43);
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+.login {
+    margin-left: 10px;
+    background-color: rgb(207, 36, 36);
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    width: 80px;
+    height: 40px;
+}
+
+.login:hover {
+    background-color: rgb(189, 47, 47);
+}
+
+.main-body {
+    word-break: keep-all;
+    padding-left: 40px;
+    padding-top: 100px;
+    color: white;
+}
+
+.title h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 17px;
+}
+
+.title-body {
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.email-input {
+    border: 1px solid rgb(43, 43, 43);
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+    color: white;
+    width: 300px;
+    padding:15px 20px;
+    margin-bottom: 10px;
+}
+
+.email-input::placeholder {
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.start-button {
+    color: white;
+    background-color: rgb(207, 36, 36);
+    border-radius: 5px;
+    border: 0;
+    width: 100px;
+    height: 45px;
+}
+
+.contents-wrap {
+    position: relative;
+    width: 100%;
+    top: -500px;
+    background: linear-gradient(0deg, rgba(0,8,29,1) 50%, rgba(31,34,255,0) 100%);
+}
+
+.contents-flex {
+    display: flex;
+    word-break: keep-all;
+    margin: 0px 20px;
+}
+
+.contents {
+    color: white;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(9,23,60,1) 1%, rgba(85,30,17,1) 100%);
+}
+
+.contents img {
+    width: 300px;
+}
+
+.qna {
+    margin-top: -500px;
+    color: white;
+    padding-top: 40px;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.qna-title {
+    font-size: 40px;
+}
+
+.qna p {
+    font-size: 16px;
+    word-break: keep-all;
+}
+
+.qna-item {
+    margin: 5px 0;
+    text-align: start;
+    border: 0px;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #10204d;
+    cursor: pointer;
+}
+
+.qna-item:hover {
+    background-color: #1c326d;
+}
+
+.qna-item::after {
+    content: "<";
+    float: right;
+}
